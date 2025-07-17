@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payoo MFS</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="font-sans">
+    <main class="flex justify-center font-sans ">
+        <div class="mockup-phone bg-green-200">
+            <div class="mockup-phone-camera"></div>
+            <div class="mockup-phone-display text-white grid place-content-center bg- w-80 h-160">
+                <div class="stats shadow">
+                    <div class="stat text-2xl text-blue-500">
+                        <div class="stat-title">Account Balance</div>
+                        <div class="stat-value">89,400</div>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <!--  -->
+                <div class= " text-2xl card bg-orange-100 w-full max-w-sm shrink-0 shadow-2xl">
+                    <div class="card-body">
+                        <fieldset class="fieldset text-xl text-blue-500">
+                            <label class="label">Ammout</label>
+                            <input type="email" class="input" placeholder="write ammount" />
+                            <label class="label">Pin Number</label>
+                            <input type="password" class="input" placeholder="write pin number" />
+                            <button id="btn-add-money" class="btn btn-neutral mt-4">Add Money</button>
+                        </fieldset>
+                    </div>
+                </div>
+        </div>
+    </main>
+    <script src="js/addMoney.js"></script>
+</body>
+</html>
